@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --bg-color: #151515;
+    --bg-color-light: #202022;
+
+    --text-1: #FFFFFF;
+    --text-2: #8C8C8C;
+    --text-3: #5B5B5B;
+}
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: var(--bg-color);
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-2);
+}
+
+/*Font sizes*/
+.f1 {
+    font-weight: 700;
+    color: var(--text-1);
+}
+
+.f2 {
+    font-weight: 400;
+    color: var(--text-2);
+}
+
+
+.f4 {
+    font-weight: 300;
+    color: var(--text-3);
+}
+
+.c-sub {
+    font-weight: 200;
+    color: var(--text-2);
+}
+
+.c-head {
+    font-weight: 400;
+    color: var(--text-1);
+}
+
+.c-desc {
+    font-weight: 200;
+    color: var(--text-3);
+}
+
+.c-link {}
+
+.c-stat-g {
+    font-weight: 400;
+    color: rgb(31, 112, 31);
+}
+
+.c-stat-b {
+    font-weight: 400;
+    color: rgb(26, 40, 117);
+}
+
+.project-card {
+    background-color: var(--bg-color-light);
+}
+
+.first {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 90vh;
+}
+
+
+
+
+@media (min-width:992px) {
+    .f1 {
+        font-size: 3rem;
+    }
+
+    .f2 {
+        font-size: 2rem;
+    }
+
+    .f4 {
+        font-size: 1.25rem;
+
+    }
+
+    .c-sub {
+        font-size: 1.25rem;
+    }
+
+    .c-head {
+        font-size: 1.5rem;
+    }
+
+    .c-desc {
+        font-size: 1.25rem;
+    }
+
+    .c-link {
+        font-size: 1rem;
+    }
+
+    .c-stat-g {
+        font-size: 1.25rem;
+    }
+
+    .c-stat-b {
+        font-size: 1.25rem;
+    }
+
+    .prof {
+        max-width: 70px;
+        max-height: 70px;
+        border-radius: 50%;
+    }
+
+    .ic {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}
+
+@media (max-width:991px) {
+
+    .first,
+    .second {
+        position: static;
+        max-width: 100%;
+        padding: 0rem;
+    }
+
+
+    .f1 {
+        font-size: 2rem;
+
+    }
+
+    .f2 {
+        font-size: 1.5rem;
+
+    }
+
+    .f4 {
+        font-size: 1.2rem;
+
+    }
+
+    .c-sub {
+        font-size: 1rem;
+
+    }
+
+    .c-head {
+        font-size: 1.5rem;
+
+    }
+
+    .c-desc {
+        font-size: 1rem;
+
+    }
+
+    .c-link {
+        font-size: 1rem;
+    }
+
+    .c-stat-g {
+        font-size: 1rem;
+
+    }
+
+    .c-stat-b {
+        font-size: 1rem;
+    }
+
+    .prof {
+        max-width: 30px;
+        max-height: 30px;
+        border-radius: 50%;
+    }
+
+    .ic {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+}
